@@ -91,7 +91,7 @@ const adminLogIn = async (req, res) => {
                 res.send({ message: "Invalid password" });
             }
         } else {
-            res.send({ message: "User not found" });
+            res.send({ message: "HAHA! Nice Try" });
         }
     } else {
         res.send({ message: "Email and password are required" });
