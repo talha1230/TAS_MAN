@@ -65,18 +65,5 @@ npm start
 Now, navigate to `localhost:3000` in your browser. 
 The Backend API will be running at `localhost:5000`.
 <br>
-# Error Solution
-
-You might encounter an error while signing up, either a network error or a loading error that goes on indefinitely.
-
-To resolve it:
-
-1. Navigate to the `frontend > .env` file.
-
-2. Uncomment the first line. After that, terminate the frontend terminal. Open a new terminal and execute the following commands:
-```sh
-cd frontend
-npm start
-```
 
 
